@@ -5,5 +5,5 @@ Mainly intended for [Pistis](https://github.com/SUSE/pistis), as it uses the sam
 
 ```
 go build
-./codeowners-debugger -repository /path/to/git/repository -file relative/path/to/file/inside/repository
+./codeowners-debugger -directory /path/to/git/repository -file relative/path/to/file/inside/repository
 ```
