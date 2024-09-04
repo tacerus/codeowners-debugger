@@ -48,6 +48,10 @@ func main() {
 	}
 
 	owners := c.Owners(file)
+	if len(owners) == 0 {
+		fmt.Printf("No owners match the given file.\n")
+		return
+	}
 	for i, o := range owners {
 		fmt.Printf("Owner #%d is %s\n", i, o)
 	}
