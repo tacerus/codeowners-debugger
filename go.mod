@@ -1,4 +1,4 @@
-module codeowners-debugger
+module github.com/tacerus/codeowners-debugger
 
 go 1.23.0
 
